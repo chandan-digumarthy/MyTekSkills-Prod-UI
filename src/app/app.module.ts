@@ -25,7 +25,7 @@ const routes: Routes = [
   {path: 'tek-stack', component: TekStackComponent},
   {path: 'concepts-used', component: ConceptsUsedComponent},
   {path: 'force-disjoint', component: ForceDisjointComponent},
-  {path: 'hier-barchart', component: HierBarchartComponent},
+  {path: 'hier-bar-chart', component: HierBarchartComponent},
   {path: 'live-health', component: LiveHealthComponent},
   {path: '**', redirectTo: 'home', pathMatch: 'full'}
 ]
