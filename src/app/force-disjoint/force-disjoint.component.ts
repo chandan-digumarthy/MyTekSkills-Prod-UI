@@ -96,7 +96,7 @@ export class ForceDisjointComponent implements OnInit {
                 
                node
                    .append("circle")
-                   .attr("r", function(d) { return Math.sqrt(d.data.value) / 10 || 4.5; })
+                   .attr("r", function(d) { return d.data.value / 10 || 4.5; })
                    .attr("fill", function(d) {
                             if(i==0) {
                                i++;
