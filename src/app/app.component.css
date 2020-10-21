@@ -1,0 +1,8 @@
+.h2 {
+    font-family: "Comic Sans MS";
+  }
+
+  * {
+    font-family: "Comic Sans MS" /* Replace with your custom font */, sans-serif !important; 
+    /* Add !important to overwrite all elements */
+  }

@@ -1,0 +1,31 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  margin-top: 70px;
+  background-color: #3F51B5;
+  text-align: center;
+  color: white;
+}
+
+.mat-toolbar.mat-primary {
+  /* position: sticky; */
+  top: 0;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+.rightalign { float:right }
+
+.main-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}

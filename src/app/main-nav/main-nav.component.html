@@ -1,0 +1,32 @@
+<mat-sidenav-container class="sidenav-container" class="main-container">
+  <mat-sidenav-content>
+
+    <mat-toolbar color="primary" class="fixed-navbar mat-elevation-z10" >
+        <h2>Organization ABC's Network Monitoring Page</h2>
+        <span class="fill-space"></span>
+        <button mat-button routerLink="/home" >Home & About Myself</button>
+        <button mat-button (click)="gotoGithub()">Github</button>
+        <button mat-button (click)="gotoLinkedin()">Linkedin</button>
+    </mat-toolbar>
+
+    <mat-sidenav class="sidenav" mode="side" opened>
+   
+        <br>
+        <button mat-button routerLink="/force-disjoint" >World Network Health</button>
+        <br>
+        <button mat-button routerLink="/hier-barchart" >Network Outage Stats</button>
+        <br>
+        <button mat-button routerLink="/live-health" >Real-Time Network Health</button>
+        <br>
+        <button mat-button routerLink="/tek-stack" >Technology Stack Used</button>
+        <br>
+        <button mat-button routerLink="/concepts-used" >Concepts Used</button>
+
+    </mat-sidenav>
+
+    <!-- Add Content Here -->
+    <!-- to add angular content projection - chandan -->
+    <ng-content></ng-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
